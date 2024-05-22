@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Shwe Seattle</title>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    
-    <body>
-        <header class="bg-dark text-white text-center py-3">
-            <h1>Welcome to Our Online Shop</h1>
-        </header>
-        <main class="container my-5">
-            <div class="row" id="catalog">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Product 1</h5>
-                            <p class="card-text">Price: $10.00</p>
-                        </div>
-                    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShweSeattle Online Catalogue</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ShweSeattle Online Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#catalog">Catalog</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Discover Our Exclusive Products</h2>
+                <p>Quality products at the best prices.</p>
+                <a href="#catalog" class="btn">Shop Now</a>
+            </div>
+        </section>
+        <section id="catalog" class="container">
+            <h2>Product Catalog</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="img/product1.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Price: $10.00</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Product 2</h5>
-                            <p class="card-text">Price: $20.00</p>
-                        </div>
-                    </div>
+                <div class="product">
+                    <img src="img/product2.jpg" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>Price: $20.00</p>
                 </div>
                 <!-- Add more products as needed -->
             </div>
-        </main>
-    </body>
-    
+        </section>
+        <section id="about" class="container">
+            <h2>About Us</h2>
+            <p>Welcome to ShweSeattle, your number one source for all things product. We're dedicated to providing you the best of products, with a focus on dependability, customer service, and uniqueness.</p>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or comments, please don't hesitate to contact us at info@shweseattle.com.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ShweSeattle. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
