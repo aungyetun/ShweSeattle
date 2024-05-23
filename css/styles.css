@@ -5,9 +5,9 @@ body {
 }
 
 .navbar .logo {
-    max-height: 30px; /* Set the height you want */
+    height: 50px; /* Set the height you want */
     /*width: auto;  Maintain aspect ratio */
-    max-width: 40%; 
+
 }
 
 #hero {
