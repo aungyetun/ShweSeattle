@@ -4,10 +4,10 @@ body {
     padding: 0;
 }
 
-.navbar .navbar-brand img {
-    height: 30px; /* Set the height you want */
-  /* Maintain aspect ratio */
-    max-width: 100%; /* Ensure it doesn't overflow */
+.navbar .logo {
+    max-height: 30px; /* Set the height you want */
+    /*width: auto;  Maintain aspect ratio */
+    max-width: 40%; 
 }
 
 #hero {
@@ -15,7 +15,6 @@ body {
     background-size: cover;
     color: white;
     padding: 50px 0;
-    text-align: center;
 }
 
 #hero h1, #hero p {
@@ -32,5 +31,4 @@ body {
 
 .footer {
     padding: 20px 0;
-    background: #f8f9fa;
 }
