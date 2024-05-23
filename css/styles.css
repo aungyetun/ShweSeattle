@@ -3,9 +3,24 @@ body {
 }
 
 header.jumbotron {
-    background: url('https://via.placeholder.com/1200x400') no-repeat center center;
-    background-size: cover;
-    color: white;
+    background: #f8f9fa;
+    padding: 2rem 1rem;
+}
+
+header.jumbotron .hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.navbar-brand .logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.product-image {
+    max-height: 300px;
+    object-fit: cover;
 }
 
 footer {
