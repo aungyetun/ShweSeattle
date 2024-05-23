@@ -5,7 +5,9 @@ body {
 }
 
 .navbar .logo {
-    max-height: 10px;  /* Constrain logo height */
+    max-height: 30px;  /* Constrain logo height */
+    max-width: 80px;  /* Constrain logo width */
+    height: auto;      /* Maintain aspect ratio */
     width: auto;       /* Maintain aspect ratio */
 }
 
