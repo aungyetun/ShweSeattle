@@ -3,62 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShweSeattle Online Shop</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <script defer src="js/script.js"></script>
+    <title>Online Shop</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <img src="img/logo.png" alt="ShweSeattle Logo" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="#catalog">Catalog</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">ShopName</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#catalog">Catalog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome to ShopName!</h1>
+        <p class="lead">Discover our amazing products.</p>
     </header>
-    <main>
-        <section id="hero">
-            <div class="container">
-                <img src="img/cover.jpg" alt="ShweSeattle Cover" class="cover">
-                <h2>Discover Our Exclusive Products</h2>
-                <p>Quality products at the best prices.</p>
-                <a href="#catalog" class="btn">Shop Now</a>
-            </div>
-        </section>
-        <section id="catalog" class="container">
-            <h2>Product Catalog</h2>
-            <div class="product-grid">
-                <div class="product">
-                    <img src="img/product1.jpg" alt="Product 1">
-                    <h3>Product 1</h3>
-                    <p>Price: $10.00</p>
-                </div>
-                <div class="product">
-                    <img src="img/product2.jpg" alt="Product 2">
-                    <h3>Product 2</h3>
-                    <p>Price: $20.00</p>
-                </div>
-                <!-- Add more products as needed -->
-            </div>
-        </section>
-        <section id="about" class="container">
-            <h2>About Us</h2>
-            <p>Welcome to ShweSeattle, your number one source for all things product. We're dedicated to providing you the best of products, with a focus on dependability, customer service, and uniqueness.</p>
-        </section>
-        <section id="contact" class="container">
-            <h2>Contact Us</h2>
-            <p>If you have any questions or comments, please don't hesitate to contact us at info@shweseattle.com.</p>
-        </section>
-    </main>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 ShweSeattle. All rights reserved.</p>
+
+    <section id="catalog" class="container my-5">
+        <h2 class="text-center">Product Catalog</h2>
+        <div class="row">
+            <!-- Product items will be added here -->
         </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 ShopName. All rights reserved.</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
